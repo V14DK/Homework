@@ -9,7 +9,6 @@ int main()
     for (int i = 0; i < 5; i++) {
         c->makeConnection(i, i, i + 1, i);
         c->makeConnection(i + 1, i, i + 1, i + 1);
-    }
     c->printMaze();
 
     system("pause");
